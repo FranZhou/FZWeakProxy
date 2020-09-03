@@ -1,0 +1,16 @@
+PODS:
+  - FZWeakProxy (0.1.0)
+
+DEPENDENCIES:
+  - FZWeakProxy (from `../`)
+
+EXTERNAL SOURCES:
+  FZWeakProxy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZWeakProxy: 6d263fca1c9487a63e612b5be761e54b7a595c43
+
+PODFILE CHECKSUM: 7b006b4a232030f7518c096f1bbf1cf3fe79c3de
+
+COCOAPODS: 1.9.0.beta.2

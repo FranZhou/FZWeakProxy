@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FZWeakProxy'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FZWeakProxy.'
+  s.summary          = 'swift weak proxy: FZWeakProxy.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+swift weak proxy: FZWeakProxy.
                        DESC
 
   s.homepage         = 'https://github.com/FranZhou/FZWeakProxy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'FranZhou' => 'zhoufan123@babytree-inc.com' }
+  s.author           = { 'FranZhou' => 'fairytale_zf@outlook.com' }
   s.source           = { :git => 'https://github.com/FranZhou/FZWeakProxy.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
