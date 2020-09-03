@@ -472,9 +472,9 @@
 			};
 			name = Debug;
 		};
-		4FFF30315482B17A5F8E659CD9349A5D /* Debug */ = {
+		9F89CDA15A8D4EB8013FCD9E69C296A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFCCE317E80A633BBD3247AADE5B6DE8 /* FZWeakProxy.debug.xcconfig */;
+			baseConfigurationReference = D53D30925444D1295E8206B162363AAB /* FZWeakProxy.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -496,12 +496,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -695,9 +696,9 @@
 			};
 			name = Release;
 		};
-		FDAA5CB1CFE542E03108AB550849CF0E /* Release */ = {
+		F5E62F72311E125F14D02E7902CBFD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D53D30925444D1295E8206B162363AAB /* FZWeakProxy.release.xcconfig */;
+			baseConfigurationReference = CFCCE317E80A633BBD3247AADE5B6DE8 /* FZWeakProxy.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -719,13 +720,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -751,8 +751,8 @@
 		AE2F0BE75DF592C866D41193E9B1AF6D /* Build configuration list for PBXNativeTarget "FZWeakProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FFF30315482B17A5F8E659CD9349A5D /* Debug */,
-				FDAA5CB1CFE542E03108AB550849CF0E /* Release */,
+				F5E62F72311E125F14D02E7902CBFD17 /* Debug */,
+				9F89CDA15A8D4EB8013FCD9E69C296A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
